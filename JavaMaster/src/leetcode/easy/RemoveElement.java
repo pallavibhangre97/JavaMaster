@@ -2,9 +2,10 @@ package leetcode.easy;
 
 public class RemoveElement {
 	public static void main(String argsp[]) {
-		int nums[] = { 2, 2, 2, 2, 2, 4, 4, 4, 4, 4 };
+		int nums[] = { 2, 2, 2, 2, 2, 4 };
 		int val = 2;
-		System.out.println("in main" + removeElement(nums, val));
+		System.out.println();
+		System.out.println("count-" + removeElement(nums, val));
 
 	}
 
@@ -29,6 +30,7 @@ public class RemoveElement {
 		for (int a : nums) {
 			System.out.print(a + " ");
 		}
+		System.out.println();
 		return count;
 
 	}

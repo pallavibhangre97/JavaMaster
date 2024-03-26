@@ -53,18 +53,7 @@ public class StarPattern {
 			System.out.println();
 		}
 		System.out.println();
-		System.out.println("////////////fifth pattern///////////// ");
 
-		k = 4;
-		for (int i = 0; i < 5; i++) {
-			for (k = 4; k > i; k--) {
-				System.out.print(" ");
-			}
-			for (int j = 0; j <= i; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
 		System.out.println();
 		System.out.println("////////////sixth pattern///////////// ");
 
@@ -74,19 +63,6 @@ public class StarPattern {
 			}
 			for (int j = 5; j > i; j--) {
 				System.out.print(" *");
-			}
-			System.out.println();
-		}
-
-/////////////////star pattern 
-		System.out.println("////////////seventh pattern///////////// ");
-		for (int i = 0; i < 5; i++) {
-			for (int h = 4; h > i; h--) {
-				System.out.print(" ");
-			}
-			for (int j = 0; j <= i; j++) {
-				System.out.print("*"); // we can create pyramid pattern same as this only add space after *
-
 			}
 			System.out.println();
 		}

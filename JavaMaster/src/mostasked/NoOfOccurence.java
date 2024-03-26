@@ -1,8 +1,6 @@
 package mostasked;
 
 import java.util.HashMap;
-import java.util.Map.Entry;
-import java.util.Set;
 
 public class NoOfOccurence {
 
@@ -22,18 +20,25 @@ public class NoOfOccurence {
 		}
 		System.out.println(map);
 
-		Set<Entry<Character, Integer>> entrySet = map.entrySet();
-
-		for (Entry<Character, Integer> entry : entrySet) {
-			if (entry.getKey() == 'P') {
-				System.out.println("Number of occurence of p= " + entry.getValue());
-				flag = true;
-				break;
-			}
-		}
-		if (flag == false) {
+		if (map.get('b') == null) {
 			System.out.println("character not found in string ");
+		} else {
+			System.out.println("Number of occurence of p= " + map.get('P'));
 		}
+
+//		Set<Entry<Character, Integer>> entrySet = map.entrySet();
+//
+//		for (Entry<Character, Integer> entry : entrySet) {
+//			if (entry.getKey() == 'P') {
+//				System.out.println("Number of occurence of p= " + entry.getValue());
+//				flag = true;
+//				break;
+//			}
+//		}
+//		if (flag == false) {
+//			System.out.println("character not found in string ");
+//		}
+//		System.out.println(map.get('r'));
 
 	}
 

@@ -13,6 +13,14 @@ public class Factorial {
 
 		}
 		System.out.println("Factorial - " + sum);
+		System.out.println(fact(n));
+	}
+
+	private static int fact(int num) {
+		if (num == 0 || num == 1) {
+			return 1;
+		}
+		return num * fact(num - 1);
 	}
 
 }

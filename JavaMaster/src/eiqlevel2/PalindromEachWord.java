@@ -30,7 +30,7 @@ public class PalindromEachWord {
 		if (ans == "")
 			System.out.println(" no palindrom words  present in string");
 		else
-			System.out.println("palindrom words  are " + ans);
+			System.out.println("palindrom words  are :" + ans);
 	}
 
 }

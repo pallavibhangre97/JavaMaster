@@ -16,6 +16,8 @@ public class StartWith1 {
 		myList.stream().map(s -> s + "") // Convert integer to String
 				.filter(s -> s.startsWith("1")).forEach(System.out::println);
 
+		myList.stream().map(s -> s + "").filter(s -> s.startsWith("1")).forEach(System.out::println);
+
 	}
 
 }

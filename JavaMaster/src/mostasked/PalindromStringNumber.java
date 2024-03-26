@@ -23,6 +23,7 @@ public class PalindromStringNumber {
 
 	public static boolean isPalindromNumber(int num) {
 		String str = Integer.toString(num);
+
 		int i = 0, j = str.length() - 1;
 
 		while (i < j) {

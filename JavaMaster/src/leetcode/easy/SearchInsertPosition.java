@@ -4,7 +4,7 @@ public class SearchInsertPosition {
 
 	public static void main(String[] args) {
 		int nums[] = { 2, 5, 9, 11, 15, 17, 20, 42 };
-		int target = 16;
+		int target = 15;
 		System.out.println(searchInsert(nums, target));
 	}
 

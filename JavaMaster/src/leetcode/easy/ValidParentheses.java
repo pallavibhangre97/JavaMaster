@@ -43,10 +43,10 @@ public class ValidParentheses {
 		Stack<Character> stack = new Stack<>();
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
-			System.out.println("char c:" + c);
+			// System.out.println("char c:" + c);
 			if (c == '(' || c == '{' || c == '[') {
 				stack.add(c);
-				System.out.println("added" + c);
+				// System.out.println("added" + c);
 			} else {
 				if (stack.isEmpty()) {
 					System.out.println("empty");
@@ -65,7 +65,7 @@ public class ValidParentheses {
 					return false;
 				}
 				stack.pop();
-				System.out.println("pooped ");
+				// System.out.println("pooped ");
 			}
 		}
 		return stack.isEmpty();

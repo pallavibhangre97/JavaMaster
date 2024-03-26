@@ -1,5 +1,11 @@
 package leetcode.easy;
 
+/*
+ * Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+Example 1:
+Input: haystack = "sadbutsad", needle = "sad"
+Output: 0
+ */
 //https://www.youtube.com/watch?v=S797iEgjluQ&t=423
 public class IndexOfFirstOccurance {
 	public static void main(String args[]) {

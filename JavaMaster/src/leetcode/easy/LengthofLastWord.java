@@ -4,8 +4,21 @@ package leetcode.easy;
 public class LengthofLastWord {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("length=" + lengthOfLastWord("lu"));
+
+		String string = "             "; // preffer this approach
+		string = string.trim();
+		int count = 0;
+		if (string.isEmpty()) {
+			count = 0;
+		} else {
+			int i = string.length() - 1;
+			while (string.charAt(i) != ' ') {
+				count++;
+				i--;
+			}
+		}
+		System.out.println(count);
+		// System.out.println("length=" + lengthOfLastWord("lu"));
 	}
 
 	/*

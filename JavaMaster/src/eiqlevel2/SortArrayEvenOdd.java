@@ -7,7 +7,7 @@ import java.util.List;
 public class SortArrayEvenOdd {
 
 	public static void main(String[] args) {
-		int arr[] = { 36, 47, 49, 90, 98 };
+		int arr[] = { 98, 49, 47, 90, 36 };
 		List<Integer> evenList = new ArrayList<>();
 		List<Integer> oddList = new ArrayList<>();
 		Arrays.sort(arr);
